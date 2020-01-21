@@ -12,9 +12,9 @@
   },
   "keywords": [],
   "author": "Nel Taurisson <nel.taurisson@gmail.com>",
-  "license": "GPLv3",
+  "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
     "url": "https://github.com/nelt/nosql-workbench.git"
-  },
+  }
 }
