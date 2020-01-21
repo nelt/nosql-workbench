@@ -1,0 +1,16 @@
+{
+  "name": "nosql-workbench",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build-docker": "docker build -t codingmatters/$npm_package_name:$npm_package_version ."
+  },
+  "dependencies": {
+    "yargs": "15.1.0"
+  },
+  "keywords": [],
+  "author": "Nel Taurisson <nel.taurisson@gmail.com>",
+  "license": "ISC"
+}
