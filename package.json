@@ -1,7 +1,7 @@
 {
   "name": "nosql-workbench",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.0-dev",
+  "description": "webapp enabling interacting with several NoSQL dbs for educational use.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -12,5 +12,9 @@
   },
   "keywords": [],
   "author": "Nel Taurisson <nel.taurisson@gmail.com>",
-  "license": "ISC"
+  "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nelt/nosql-workbench.git"
+  },
 }
