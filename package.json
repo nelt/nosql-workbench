@@ -4,11 +4,17 @@
   "description": "webapp enabling interacting with several NoSQL dbs for educational use.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "none": "node app.js hello world",
+    "batch": "node app.js --batch /scripts/hello-world/runHello.js bonjour le monde",
+    "server": "node app.js --server",
     "build-docker": "docker build -t codingmatters/$npm_package_name:$npm_package_version ."
   },
   "dependencies": {
-    "yargs": "15.1.0"
+    "yargs": "15.1.0",
+    "mongodb": "3.5.2",
+    "@elastic/elasticsearch": "7.5.0",
+    "cassandra-driver": "4.4.0",
+    "csv": "5.3.1"
   },
   "keywords": [],
   "author": "Nel Taurisson <nel.taurisson@gmail.com>",
