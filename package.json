@@ -1,6 +1,6 @@
 {
   "name": "nosql-workbench",
-  "version": "1.2.0-dev",
+  "version": "1.2.0",
   "description": "webapp enabling interacting with several NoSQL dbs for educational use.",
   "main": "app.js",
   "scripts": {
