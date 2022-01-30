@@ -1,6 +1,6 @@
 {
   "name": "nosql-workbench",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "webapp enabling interacting with several NoSQL dbs for educational use.",
   "main": "app.js",
   "scripts": {
@@ -10,11 +10,14 @@
     "build-docker": "docker build -t codingmatters/$npm_package_name:$npm_package_version ."
   },
   "dependencies": {
-    "yargs": "15.1.0",
-    "mongodb": "3.5.2",
-    "@elastic/elasticsearch": "7.5.0",
-    "cassandra-driver": "4.4.0",
-    "csv": "5.3.1"
+    "yargs": "17.3.1",
+    "mongodb": "4.3.1",
+    "@elastic/elasticsearch": "7.16.0",
+    "cassandra-driver": "4.6.3",
+    "redis": "4.0.2",
+    "csv": "6.0.5",
+    "fast-csv": "4.3.6",
+    "csv-batch": "2.0.4"
   },
   "keywords": [],
   "author": "Nel Taurisson <nel.taurisson@gmail.com>",
